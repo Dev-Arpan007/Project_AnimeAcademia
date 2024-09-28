@@ -1,0 +1,146 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: "Poppins";
+}
+.mainContainer{
+    padding-top: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 400px;
+    background: linear-gradient(90deg,blue,violet);
+    height: 600px;
+}
+h2{
+    color: orange;
+    position: relative;
+    left: 50px;
+    font-size: 30px;
+
+}
+.container{
+    width: 370px;
+    margin: auto;
+}
+.txt{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+#addtxt{
+    width: 250px;
+    border-radius: 13px;
+    height: 30px;
+    border: none;
+    border-color: transparent;
+    padding-left: 20px;
+    font-size: 17px;
+    
+}
+#add{
+    width: 70px;
+    height: 35px;
+    border-radius: 15px;
+    background-color: orange;
+    border: none;
+    font-size: 17px;
+
+}
+#add:hover{
+    cursor: pointer;
+    background-color: rgb(238, 159, 12);
+}
+.lists{
+    padding-top: 10px;
+    
+}
+
+.lists ul li{
+   
+    margin-top: 25px;
+    /* border: 2px solid black; */
+    list-style: none;
+    color: white;
+    position: relative;
+    min-height: 15px;
+    left: 7px;
+    font-size: 17px;
+    font-size: 20px;
+
+}
+
+ul li::before{
+    content: "";
+    position: absolute;
+    height:16px ;
+    width: 16px;
+    border-radius: 50%;
+    background-image: url("circle.png");
+    background-color: white;
+     top: 6px; 
+    left: -25px;
+    background-size: cover;
+    cursor: pointer;
+}
+ul li.checked{
+    text-decoration: line-through;
+    color: rgb(188, 188, 188);
+}
+ul li.checked::before{
+    background-image: url("check.png");
+}
+ul span{
+    content: "";
+    position: absolute;
+    height:20px ;
+    width: 20px;
+    border-radius: 50%;
+    background-image: url("recycle-bin.png");
+    background-color: white; 
+    top: 2px;
+    left: 17vw;
+    background-size: cover;
+    cursor: pointer;
+}
+ul div img{
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    left: 15vw;
+    cursor: pointer;
+}
+
+.innerInput{
+    border: none;
+    border-radius: 3px;
+    min-height: 3vh;
+    width: 18vw;
+}
+
+.noteClass{
+    font-size: 12px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    min-height: 17px;
+    width: 14vw;
+    position: relative;
+    left: 40px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+
+#bttnid{
+    cursor: pointer;
+}
+.cross{
+    background-image: url("cross.png");
+   font-size: 20px;
+   height: 15px;
+   width: 15px;
+}
