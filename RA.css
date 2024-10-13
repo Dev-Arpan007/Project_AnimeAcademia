@@ -1,0 +1,56 @@
+.btn-outline-success {
+    color:#099;
+    border-color: #099;
+    margin: 0 5px 0 5px; font-weight: 900;
+}
+
+.btn-outline-success:hover {
+    color:#fff;
+    background-color: #099;
+    border-color: #099; font-weight: 900;
+    
+}
+
+.navbar-nav .nav-link.active {
+color: #999;
+font-weight: 600;
+margin-left: 10px;
+}
+
+.navbar-nav .nav-link.active:hover {
+    color: #099;
+    font-weight: 700;
+
+    }
+
+#Dark {
+        background-color: #FF9933;
+        border: none;color: #fff;
+        font-weight: 900;
+}
+    
+#Dark:hover{
+    color:#212529;
+    font-weight: 900;
+}
+
+.navbar-brand{
+    color:#FF9933;
+    font-size: 1.65rem;
+    font-weight: 700;
+    margin:0 16px 0 10px;
+}
+
+.navbar-brand:hover{
+    color:#FF9933;
+    font-size: 1.65rem;
+}
+
+.navbar-toggler {
+    border: 2px solid teal;
+    color: #099;
+}
+
+.d-flex{
+    margin-left: 10px;
+}
